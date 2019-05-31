@@ -5,6 +5,15 @@
 ## Build Setup
 
 ``` bash
+# Create a contentful.json in root
+For this project to work, you will need to setup a config file.
+This should hold something like this:
+{
+  "CTF_SPACE_ID": "YOURSPACEID",
+  "CTF_CDA_ACCESS_TOKEN": "YOURACCESSTOKEN",
+  "CTF_ENVIRONMENT": "master"
+}
+
 # install dependencies
 $ npm install # Or yarn install
 
